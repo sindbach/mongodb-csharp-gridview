@@ -1,16 +1,30 @@
 
 
-#### .Net GridView MongoDB C#
+#### .Net GridView MongoDB CSharp 
 
-Creates a grid pagination of : 
+An example of GridView pagination of : 
 
 ```
-1 2 3 4 5 Last 
-First 6 7 8 9 10 Last
-First 21 22 23 24 25 
+1 2 3 4 5 .. Last 
+First .. 6 7 8 9 10 .. Last
+First .. 21 22 23 24 25 
 ```
 
-Create a new WebSite project in Visual Studio, and modify the Default.* with these files. 
+
+#### How do I try it ?
+
+1. Create a new WebSite project in Visual Studio, and swap the Default.* with these files. 
+2. Run MongoDB instance locally with data in `test.products` structured as: 
+
+```
+{
+    "_id" : ObjectId(),
+    "ProductName": "Name", 
+    "PurchaseDate": "Date", 
+    "Price": Int
+
+}
+```
 
 Tested with: 
 
